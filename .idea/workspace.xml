@@ -256,12 +256,12 @@
       <workItem from="1562670052060" duration="1975000" />
       <workItem from="1562771119887" duration="69743000" />
       <workItem from="1564590617478" duration="1554000" />
-      <workItem from="1564592368397" duration="7102000" />
+      <workItem from="1564592368397" duration="7882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427597000" />
+    <option name="totallyTimeSpent" value="428377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +291,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14666666" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15166667" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
