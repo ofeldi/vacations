@@ -308,12 +308,12 @@
       <workItem from="1562670052060" duration="1975000" />
       <workItem from="1562771119887" duration="69743000" />
       <workItem from="1564590617478" duration="1554000" />
-      <workItem from="1564592368397" duration="5578000" />
+      <workItem from="1564592368397" duration="6522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426073000" />
+    <option name="totallyTimeSpent" value="427017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,9 +326,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18297534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18297534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -344,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.735" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
