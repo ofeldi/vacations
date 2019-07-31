@@ -85,8 +85,8 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                             <Link to="/admin" className="btn btn-light">
                                 Go Back
                             </Link>
-                            <h1 className="display-4 text-center">Create Vacation</h1>
-                            <p className="lead text-center">Let's get some information about our next vacation</p>
+                            <h1 className="display-4 text-center">Add a New Vacation</h1>
+                            <p className="lead text-center">Please fill the below form</p>
                             <small className="d-block pb-3">* = required field</small>
                             <form onSubmit={this.onSubmit}>
                                 <div className="form-group">
@@ -100,7 +100,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                            onChange={this.onChange}
                                     />
                                     {errors.description ? <div className="invalid-feedback">{errors.description}</div> :
-                                        <small className="form-text text-muted">A description of the vacation</small>
+                                        <small className="form-text text-muted">Vacation Description</small>
                                     }
                                 </div>
                                 <div className="form-group">
@@ -114,8 +114,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                            onChange={this.onChange}
                                     />
                                     {errors.destination ? <div className="invalid-feedback">{errors.destination}</div> :
-                                        <small className="form-text text-muted">On which country or a planet
-                                        </small>
+                                        <small className="form-text text-muted">Vacation Destination                             </small>
                                     }
                                 </div>
                                 <div className="form-group">
@@ -129,10 +128,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                            onChange={this.onChange}
                                     />
                                     {errors.photoURL ? <div className="invalid-feedback">{errors.destination}</div> :
-                                        <small className="form-text text-muted">Feed me with url so I can bring an
-                                            awesome
-                                            photo from the internet
-                                        </small>
+                                        <small className="form-text text-muted">Url with the vacation photo</small>
                                     }
                                 </div>
                                 <div className="form-group">
@@ -140,7 +136,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                         className="form-control form-control-lg"
                                         selected={this.state.startDate}
                                         onChange={this.handleStartDateChange}/>
-                                    <small className="form-text text-muted">This day
+                                    <small className="form-text text-muted">Start Date
                                     </small>
                                 </div>
                                 <div className="form-group">
@@ -148,7 +144,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                         className="form-control form-control-lg"
                                         selected={this.state.endDate}
                                         onChange={this.handleEndDateChange}/>
-                                    <small className="form-text text-muted">Till the last day</small>
+                                    <small className="form-text text-muted">End Date</small>
                                 </div>
                                 <div className="form-group">
                                     <input type="number"
@@ -158,7 +154,7 @@ class AddVacation extends Component <IAdminProps, IModifyVacationState> {
                                            value={this.state.price}
                                            onChange={this.onChange}
                                     />
-                                    <small className="form-text text-muted">Lets make some 💰💰💰
+                                    <small className="form-text text-muted">Price
                                     </small>
                                 </div>
                                 <input type="submit" className="btn btn-info btn-block mt-4"/>

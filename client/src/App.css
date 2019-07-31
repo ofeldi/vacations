@@ -4,7 +4,7 @@ img {
 
 .landing {
     position: relative;
-    background: url('./img/Vacation.jpg') no-repeat;
+    background: url('https://media3.s-nbcnews.com/i/newscms/2019_22/2877036/190530-florida-beach-mc-1334_1bc1c3ed6737c023681383d5d719f1be.JPG') no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -116,10 +116,11 @@ img {
 }
 
 .single-destinations .lead .price-btn {
-    background-color: #17a2b8;
+    background-color: brown;
     border-color: #17a2b8;
     color: #ffffff;
     font-weight: 600;
+    font-color:black;
     padding: 5px 20px;
 }
 

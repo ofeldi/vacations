@@ -59,7 +59,7 @@ class Navbar extends Component <INavbarProps> {
         return (
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">Vacations Master</Link>
+                    <Link className="navbar-brand" to="/">Feldman Tours</Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                         <span className="navbar-toggler-icon"/>
                     </button>
